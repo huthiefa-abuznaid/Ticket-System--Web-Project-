@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>    
+    <meta charset="UTF-8">
+    <title>Dragon Phones - Submit Service Request</title>
+</head>
+    
+<body>
+    <header> 
+        <img src="Screenshot 2026-08-09 235804.png" width="200" height="200" alt="Dragon Phones Logo">
+        <h1>Dragon Phones Company</h1>
+    </header> 
+
+    <nav>
+         <a href="../index.html">Home</a>
+        <a href="../Submit Maintenance Request/index.html">Submit Request</a>
+        <a href="../Contact Us/index.html">Contact Us</a>
+      
+    </nav>
+
+    <main>
+        <h1>Submit Phone Repair & Service Request</h1>
+
+        <form action="http://fakhalil.studentprojects.ritaj.ps/util/process.php" method="post" >
+            <label for="full-name">Full Name:</label><br>
+            <input type="text" id="full-name" name="full_name" placeholder="Enter your full name" required><br><br>
+
+            <label for="email">Email Address:</label><br>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+            <label for="location">Location Room Number:</label><br>
+            <input type="text" id="location" name="location" placeholder="Enter the room number" required><br><br>
+
+            <label for="issue">Phone Issue Description:</label><br>
+            <textarea id="issue" name="issue_description" placeholder="Describe the issue" rows="2" cols="20" required></textarea><br><br>
+
+            <label for="urgency">Urgency Level:</label><br>
+            <select id="urgency" name="urgency_level">
+                <option value="low">Low</option>
+                <option value="medium" selected>Medium</option>
+                <option value="high">High</option>
+            </select><br><br>
+
+            <label for="photo">Upload a photo of the phone/issue (optional):</label><br>
+            <input type="file" id="photo" name="issue_photo" accept="image/*"><br><br>
+
+            <button type="submit">Submit Request</button>
+           
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; Dragon Phones Company. All rights reserved. | <a href="https://www.linkedin.com/in/hutheifa-abuznaid-0116b2422/">Privacy Policy</a></p>
+        <p>Contact Us: <a href="https://www.linkedin.com/in/hutheifa-abuznaid-0116b2422/">Hutheifa Abuznaid</a></p>
+    </footer>
+</body>
+</html>
